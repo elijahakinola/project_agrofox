@@ -107,7 +107,7 @@ export default {
         this.toggle_loading(true);
         response = await this.$store.dispatch("login", this.api_params());
         
-      
+          console.log('hiiiiiii')
            if( response && 'status' in response){
 
               //If it is successful
@@ -133,7 +133,7 @@ export default {
                   });
               }
 
-              console.log(response.data)
+              console.log(response)
               
             } 
 
