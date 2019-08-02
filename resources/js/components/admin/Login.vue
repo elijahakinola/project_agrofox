@@ -150,6 +150,7 @@ export default {
       //submitting formdata to api database
 
       if(this.myForm.email && this.myForm.password){
+         console.log('yyyyy')
           await this.api_calls();
       }
       
