@@ -132,6 +132,8 @@ export default {
                   title: "Oooops"
                   });
               }
+
+              console.log(response.data)
               
             } 
 
